@@ -23,7 +23,7 @@ jobs:
         distribution: 'temurin'
     - name: Compilando no JAVA
       run: |
-          cd src
+          cd src/main/java/org
           javac -cp . Main.java
     - name: Rodando o programa
       run: |
