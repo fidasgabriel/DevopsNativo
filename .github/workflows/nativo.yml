@@ -27,5 +27,5 @@ jobs:
           javac -cp . Main.java
     - name: Rodando o programa
       run: |
-          cd src
+          cd src/main/java/org/example
           java -cp . Main
